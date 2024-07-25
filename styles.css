@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #050505;
+    color: rgb(17, 205, 208);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center
+}
+
+header nav ul a {
+    list-style-type: square;
+    display: inline;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(22, 83, 215);
+    border: 5px solid rgb(22, 83, 215);
+}
+
+header nav ul a:hover {text-decoration: overline;}
+
+main {
+    padding: 20px;
+}
+
+.imagecontainer{
+    position: relative;
+    display: inline-block;
+}
+
+.imagecontainer img{display: block;
+width:100%;
+height:auto;}
+
+.overlaytext {position: absolute;
+top:50%;
+left:50%;
+transform: (-50%, -50%);
+background-color: #000000;
+color: #fff;
+padding: 10px 20px;
+font-size: 20px;
+text-align: center; }
+
+.greeting {
+    text-align: centre;
+    margin-top: 1%;
+}
+button{
+    text-align: center;
+   padding: 10px 20px;
+   font-size: 16px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+
+
+footer {
+    background-color: #050505;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
